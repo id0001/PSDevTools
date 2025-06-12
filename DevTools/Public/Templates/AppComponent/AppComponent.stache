@@ -1,0 +1,10 @@
+<fox-panel scroll>
+    {{#if loaded}}
+        <fox-content-panel>
+        </fox-content-panel>
+    {{#else}}
+        <fox-form-display size="1">
+            <span class="emp-spinner"></span>
+        </fox-form-display>
+    {{/}}
+</fox-panel>
